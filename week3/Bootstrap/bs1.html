@@ -1,0 +1,24 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="bootstrap.css">
+	</head>
+	<body>
+	<input type="text" id="tx1" ></input>
+	<input type="button" class="btn btn-primary" value="click" onclick="myfunc()"></input>
+	<script>
+	function myfunc()
+	{
+		var name=document.getElementById("tx1").value;
+		if(name.length==10&&!isNaN(name))
+		{
+		alert("phonenumber registered");
+		}
+		else
+		{
+		alert("enter ur valid phonenum");
+		}
+		
+	}
+	</script>
+	</body>
+</html>
